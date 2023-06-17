@@ -8,6 +8,14 @@ var randomimageDice2="./images/dice"+random_n2+".png";
 var image2=document.querySelectorAll("img")[1];
 image2.setAttribute("src",randomimageDice2);
 
-
+if(random_no1>random_n2){
+    document.querySelector("h1").innerHTML="🚩 Player1 Wins!"
+}
+else if(random_n2>random_n01){
+    document.querySelector("h1").innerHTML="🚩 Player2 Wins!"
+}
+else{
+    document.querySelector("h1").innerHTML="☠️ Match Draw!"
+}
  
 
