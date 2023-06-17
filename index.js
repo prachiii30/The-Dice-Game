@@ -11,7 +11,7 @@ image2.setAttribute("src",randomimageDice2);
 if(random_no1>random_n2){
     document.querySelector("h1").innerHTML="🚩 Player1 Wins!"
 }
-else if(random_n2>random_n01){
+else if(random_n2>random_no1){
     document.querySelector("h1").innerHTML="🚩 Player2 Wins!"
 }
 else{
